@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Kite+One);
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,700);
+/* The ribbon */
+.ribbon {
+  width: 50px;
+  height: 100px;
+  background-color: #008000;
+  position: absolute;
+  right: 100px;
+  top: -350px;
+  -webkit-animation: drop forwards 0.4s 0s cubic-bezier(0.165, 0.84, 0.44, 1);
+          animation: drop forwards 0.4s 0s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.ribbon:before {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  bottom: -25px;
+  border-left: 25px solid #008000;
+  border-right: 25px solid #008000;
+  border-bottom: 25px solid transparent;
+}
+
+@-webkit-keyframes drop {
+  0% {
+    top: -350px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes drop {
+  0% {
+    top: -350px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+/*ribbon css */
+.ribbon i {
+  width: 90%;
+  height: 120%;
+  display: block;
+  margin: auto;
+  z-index: 100;
+  position: relative;
+  border-right: dashed 0.0625em #333;
+  border-left: dashed 0.0625em #333;
+  overflow: hidden;
+}
+
+i span {
+  color: #FFF;
+  display: block;
+  text-align: center;
+  top: 50%;
+  margin-top: -2em;
+  transform: skewY(90deg) skewX(0);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  position: relative;
+  text-shadow: 0.0625em 0.0625em 0.0625em #333;
+  font-style: normal;
+  font-weight: bold;
+}
+/*# sourceMappingURL=bookmarks.css.map */
