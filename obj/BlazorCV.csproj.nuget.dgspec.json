@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rn.EFD\\Desktop\\BlazorCV\\BlazorCV.csproj": {}
+    "C:\\Users\\Bruger\\OneDrive\\Skrivebord\\BlazorCV\\BlazorCV.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rn.EFD\\Desktop\\BlazorCV\\BlazorCV.csproj": {
+    "C:\\Users\\Bruger\\OneDrive\\Skrivebord\\BlazorCV\\BlazorCV.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rn.EFD\\Desktop\\BlazorCV\\BlazorCV.csproj",
+        "projectUniqueName": "C:\\Users\\Bruger\\OneDrive\\Skrivebord\\BlazorCV\\BlazorCV.csproj",
         "projectName": "BlazorCV",
-        "projectPath": "C:\\Users\\rn.EFD\\Desktop\\BlazorCV\\BlazorCV.csproj",
-        "packagesPath": "C:\\Users\\rn.EFD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rn.EFD\\Desktop\\BlazorCV\\obj\\",
+        "projectPath": "C:\\Users\\Bruger\\OneDrive\\Skrivebord\\BlazorCV\\BlazorCV.csproj",
+        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruger\\OneDrive\\Skrivebord\\BlazorCV\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rn.EFD\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
