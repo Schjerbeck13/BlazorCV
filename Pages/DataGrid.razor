@@ -1,0 +1,34 @@
+﻿@page "/DataGrid"
+
+@if (DataSource == null) {
+    <div class="container">Loading...</div>
+} else {
+    <DxDataGrid Data="@DataSource">
+        <DxDataGridDateEditColumn Field=@nameof(WeatherForecast.Date) />
+        <DxDataGridColumn Field=@nameof(WeatherForecast.TemperatureC) Caption="Temp. (C)" />
+        <DxDataGridSpinEditColumn Field=@nameof(WeatherForecast.TemperatureF) Caption="Temp. (F)" />
+    </DxDataGrid>
+}
+
+@code {
+    IEnumerable<WeatherForecast> DataSource;
+
+    public class WeatherForecast {
+        public DateTime Date { get; set; }
+        public int TemperatureC { get; set; }
+        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+    }
+
+    protected override async Task OnInitializedAsync() {
+        DataSource = await GetForecastAsync();
+    }
+
+    public Task<IEnumerable<WeatherForecast>> GetForecastAsync() {
+        var rng = new Random();
+        DateTime startDate = DateTime.Now;
+        return Task.FromResult(Enumerable.Range(1, 15).Select(index => new WeatherForecast {
+            Date = startDate.AddDays(index),
+            TemperatureC = rng.Next(-15, 20),
+        }).AsEnumerable());
+    }
+}

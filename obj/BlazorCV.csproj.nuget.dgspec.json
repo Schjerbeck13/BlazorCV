@@ -14,13 +14,15 @@
         "outputPath": "C:\\Users\\Bruger\\OneDrive\\Skrivebord\\BlazorCV\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "C:\\Users\\Bruger\\OneDrive\\Skrivebord\\BlazorCV\\NuGet.Config",
           "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/44Hrcpm4DHtpgVLjaBYkuoCzGPux3GKlaSUFc2Obxq5lPBm6bo/api": {}
         },
         "frameworks": {
           "netstandard2.1": {
@@ -36,6 +38,10 @@
       "frameworks": {
         "netstandard2.1": {
           "dependencies": {
+            "DevExpress.Blazor": {
+              "target": "Package",
+              "version": "[20.1.5, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[3.2.1, )"
