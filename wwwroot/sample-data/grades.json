@@ -1,166 +1,482 @@
 [
   {
-    "id": 1,
-    "course": "Lean Enterprise"
+    "ID": 1,
+    "Course": "Lean Enterprise",
+    "ECTS": 10,
+    "Term": "9. Term",
+    "Date": "2017-06-30T22:00:00.000Z",
+    "Year": 2017,
+    "IntlGrade": "B",
+    "Grade": 10,
+    "AvgGradeClass": 8.94,
+    "DifAvg": 1.06
   },
   {
-    "id": 2,
-    "course": "Project Management: A Practitioners Approach"
+    "ID": 2,
+    "Course": "Project Management: A Practitioners Approach",
+    "ECTS": 10,
+    "Term": "8. Term",
+    "Date": "2017-01-03T23:00:00.000Z",
+    "Year": 2017,
+    "IntlGrade": "B",
+    "Grade": 10,
+    "AvgGradeClass": 7.9,
+    "DifAvg": 2.1
   },
   {
-    "id": 3,
-    "course": "Data Mining for Business Decisions"
+    "ID": 3,
+    "Course": "Data Mining for Business Decisions",
+    "ECTS": 10,
+    "Term": "8. Term",
+    "Date": "2017-01-02T23:00:00.000Z",
+    "Year": 2017,
+    "IntlGrade": "C",
+    "Grade": 7,
+    "AvgGradeClass": 7.87,
+    "DifAvg": -0.87
   },
   {
-    "id": 4,
-    "course": "Bayesian Networks"
+    "ID": 4,
+    "Course": "Bayesian Networks",
+    "ECTS": 5,
+    "Term": "8. Term",
+    "Date": "2017-01-01T23:00:00.000Z",
+    "Year": 2017,
+    "IntlGrade": "B",
+    "Grade": 10,
+    "AvgGradeClass": 7.9,
+    "DifAvg": 2.1
   },
   {
-    "id": 5,
-    "course": "Advanced Market Research"
+    "ID": 5,
+    "Course": "Advanced Market Research",
+    "ECTS": 5,
+    "Term": "8. Term",
+    "Date": "2016-12-31T23:00:00.000Z",
+    "Year": 2017,
+    "IntlGrade": "C",
+    "Grade": 7,
+    "AvgGradeClass": 7.77,
+    "DifAvg": -0.77
   },
   {
-    "id": 6,
-    "course": "IS Development and Implementation in a Business Context"
+    "ID": 6,
+    "Course": "IS Development and Implementation in a Business Context",
+    "ECTS": 10,
+    "Term": "7. Term",
+    "Date": "2016-07-03T22:00:00.000Z",
+    "Year": 2016,
+    "IntlGrade": "B",
+    "Grade": 10,
+    "AvgGradeClass": 7.9,
+    "DifAvg": 2.1
   },
   {
-    "id": 7,
-    "course": "Business Forecasting"
+    "ID": 7,
+    "Course": "Business Forecasting",
+    "ECTS": 10,
+    "Term": "7. Term",
+    "Date": "2016-07-02T22:00:00.000Z",
+    "Year": 2016,
+    "IntlGrade": "D",
+    "Grade": 4,
+    "AvgGradeClass": 5.06,
+    "DifAvg": -1.06
   },
   {
-    "id": 8,
-    "course": "Data Warehousing"
+    "ID": 8,
+    "Course": "Data Warehousing",
+    "ECTS": 5,
+    "Term": "7. Term",
+    "Date": "2016-07-01T22:00:00.000Z",
+    "Year": 2016,
+    "IntlGrade": "B",
+    "Grade": 10,
+    "AvgGradeClass": 6.43,
+    "DifAvg": 3.57
   },
   {
-    "id": 9,
-    "course": "SAS and SQL for Business Analytics"
+    "ID": 9,
+    "Course": "SAS and SQL for Business Analytics",
+    "ECTS": 5,
+    "Term": "7. Term",
+    "Date": "2016-06-30T22:00:00.000Z",
+    "Year": 2016,
+    "IntlGrade": "B",
+    "Grade": 10,
+    "AvgGradeClass": 6.41,
+    "DifAvg": 3.59
   },
   {
-    "id": 10,
-    "course": "Bachelorafhandling"
+    "ID": 10,
+    "Course": "Bachelorafhandling",
+    "ECTS": 20,
+    "Term": "6. Term",
+    "Date": "2016-01-01T23:00:00.000Z",
+    "Year": 2016,
+    "IntlGrade": "B",
+    "Grade": 10,
+    "AvgGradeClass": 9.15,
+    "DifAvg": 0.85
   },
   {
-    "id": 11,
-    "course": "Erhvervsret"
+    "ID": 11,
+    "Course": "Erhvervsret",
+    "ECTS": 10,
+    "Term": "6. Term",
+    "Date": "2015-12-31T23:00:00.000Z",
+    "Year": 2016,
+    "IntlGrade": "C",
+    "Grade": 7,
+    "AvgGradeClass": 4.15,
+    "DifAvg": 2.85
   },
   {
-    "id": 12,
-    "course": "Business Intelligence"
+    "ID": 12,
+    "Course": "Business Intelligence",
+    "ECTS": 5,
+    "Term": "5. Term",
+    "Date": "2015-07-05T22:00:00.000Z",
+    "Year": 2015,
+    "IntlGrade": "B",
+    "Grade": 10,
+    "AvgGradeClass": 6.22,
+    "DifAvg": 3.78
   },
   {
-    "id": 13,
-    "course": "Strategi"
+    "ID": 13,
+    "Course": "Strategi",
+    "ECTS": 5,
+    "Term": "5. Term",
+    "Date": "2015-07-04T22:00:00.000Z",
+    "Year": 2015,
+    "IntlGrade": "C",
+    "Grade": 7,
+    "AvgGradeClass": 7.16,
+    "DifAvg": -0.16
   },
   {
-    "id": 14,
-    "course": "Programmering 2"
+    "ID": 14,
+    "Course": "Programmering 2",
+    "ECTS": 5,
+    "Term": "5. Term",
+    "Date": "2015-07-03T22:00:00.000Z",
+    "Year": 2015,
+    "IntlGrade": "B",
+    "Grade": 10,
+    "AvgGradeClass": 6.83,
+    "DifAvg": 3.17
   },
   {
-    "id": 15,
-    "course": "Seminar i Marketing"
+    "ID": 15,
+    "Course": "Seminar i Marketing",
+    "ECTS": 5,
+    "Term": "5. Term",
+    "Date": "2015-07-02T22:00:00.000Z",
+    "Year": 2015,
+    "IntlGrade": "B",
+    "Grade": 10,
+    "AvgGradeClass": 7.19,
+    "DifAvg": 2.81
   },
   {
-    "id": 16,
-    "course": "Introduktion til programmering"
+    "ID": 17,
+    "Course": "Introduktion to web 2.0 Technologies",
+    "ECTS": 5,
+    "Term": "5. Term",
+    "Date": "2015-06-30T22:00:00.000Z",
+    "Year": 2015,
+    "IntlGrade": "C",
+    "Grade": 7,
+    "AvgGradeClass": 7.886,
+    "DifAvg": -0.886
   },
   {
-    "id": 17,
-    "course": "Introduktion to web 2.0 Technologies"
+    "ID": 18,
+    "Course": "Videnskabsteori og metode 3 (kvalitativ metode)",
+    "ECTS": 5,
+    "Term": "4. Term",
+    "Date": "2015-01-05T23:00:00.000Z",
+    "Year": 2015,
+    "IntlGrade": "B",
+    "Grade": 10,
+    "AvgGradeClass": 6.86,
+    "DifAvg": 3.14
   },
   {
-    "id": 18,
-    "course": "Videnskabsteori og metode 3 (kvalitativ metode)"
+    "ID": 19,
+    "Course": "IT-Projektstyring",
+    "ECTS": 5,
+    "Term": "4. Term",
+    "Date": "2015-01-04T23:00:00.000Z",
+    "Year": 2015,
+    "IntlGrade": "C",
+    "Grade": 7,
+    "AvgGradeClass": 8.36,
+    "DifAvg": -1.36
   },
   {
-    "id": 19,
-    "course": "IT-Projektstyring"
+    "ID": 20,
+    "Course": "Afs\u00E6tnings\u00F8konomi",
+    "ECTS": 5,
+    "Term": "4. Term",
+    "Date": "2015-01-03T23:00:00.000Z",
+    "Year": 2015,
+    "IntlGrade": "C",
+    "Grade": 7,
+    "AvgGradeClass": 6.06,
+    "DifAvg": 0.94
   },
   {
-    "id": 20,
-    "course": "Afs\u00E6tnings\u00F8konomi"
+    "ID": 21,
+    "Course": "Projektorienteret opgave",
+    "ECTS": 5,
+    "Term": "4. Term",
+    "Date": "2015-01-02T23:00:00.000Z",
+    "Year": 2015,
+    "IntlGrade": "B",
+    "Grade": 10,
+    "AvgGradeClass": 7.85,
+    "DifAvg": 2.15
   },
   {
-    "id": 21,
-    "course": "Projektorienteret opgave"
+    "ID": 22,
+    "Course": "Adf\u00E6rd i organisationer",
+    "ECTS": 5,
+    "Term": "4. Term",
+    "Date": "2015-01-01T23:00:00.000Z",
+    "Year": 2015,
+    "IntlGrade": "B",
+    "Grade": 10,
+    "AvgGradeClass": 5.76,
+    "DifAvg": 4.24
   },
   {
-    "id": 22,
-    "course": "Adf\u00E6rd i organisationer"
+    "ID": 23,
+    "Course": "Informationssytemer og forretningsprocesser",
+    "ECTS": 5,
+    "Term": "4. Term",
+    "Date": "2014-12-31T23:00:00.000Z",
+    "Year": 2015,
+    "IntlGrade": "C",
+    "Grade": 7,
+    "AvgGradeClass": 9.63,
+    "DifAvg": -2.63
   },
   {
-    "id": 23,
-    "course": "Informationssytemer og forretningsprocesser"
+    "ID": 24,
+    "Course": "Drifts\u00F8konomiske planl\u00E6gningsmodeller",
+    "ECTS": 5,
+    "Term": "3. Term",
+    "Date": "2014-07-05T22:00:00.000Z",
+    "Year": 2014,
+    "IntlGrade": "C",
+    "Grade": 7,
+    "AvgGradeClass": 4.83,
+    "DifAvg": 2.17
   },
   {
-    "id": 24,
-    "course": "Drifts\u00F8konomiske planl\u00E6gningsmodeller"
+    "ID": 25,
+    "Course": "\u00D8konomistyring",
+    "ECTS": 5,
+    "Term": "3. Term",
+    "Date": "2014-07-04T22:00:00.000Z",
+    "Year": 2014,
+    "IntlGrade": "D",
+    "Grade": 4,
+    "AvgGradeClass": 2.57,
+    "DifAvg": 1.43
   },
   {
-    "id": 25,
-    "course": "\u00D8konomistyring"
+    "ID": 26,
+    "Course": "Videnskabsteori og metode 2 (Kvantitativ metode)",
+    "ECTS": 5,
+    "Term": "3. Term",
+    "Date": "2014-07-03T22:00:00.000Z",
+    "Year": 2014,
+    "IntlGrade": "B",
+    "Grade": 10,
+    "AvgGradeClass": 4.26,
+    "DifAvg": 5.74
   },
   {
-    "id": 26,
-    "course": "Videnskabsteori og metode 2 (Kvantitativ metode)"
+    "ID": 27,
+    "Course": "Finansiering I",
+    "ECTS": 5,
+    "Term": "3. Term",
+    "Date": "2014-07-02T22:00:00.000Z",
+    "Year": 2014,
+    "IntlGrade": "D",
+    "Grade": 4,
+    "AvgGradeClass": 4.25,
+    "DifAvg": -0.25
   },
   {
-    "id": 27,
-    "course": "Finansiering I"
+    "ID": 28,
+    "Course": "Brugerrettet IT-innovation",
+    "ECTS": 5,
+    "Term": "3. Term",
+    "Date": "2014-07-01T22:00:00.000Z",
+    "Year": 2014,
+    "IntlGrade": "B",
+    "Grade": 10,
+    "AvgGradeClass": 6.76,
+    "DifAvg": 3.24
   },
   {
-    "id": 28,
-    "course": "Brugerrettet IT-innovation"
+    "ID": 29,
+    "Course": "Modellering af informationsystemer",
+    "ECTS": 5,
+    "Term": "3. Term",
+    "Date": "2014-06-30T22:00:00.000Z",
+    "Year": 2014,
+    "IntlGrade": "C",
+    "Grade": 7,
+    "AvgGradeClass": 7,
+    "DifAvg": 0
   },
   {
-    "id": 29,
-    "course": "Modellering af informationsystemer"
+    "ID": 30,
+    "Course": "Eksternt \u00E5rsregnskab",
+    "ECTS": 5,
+    "Term": "2. Term",
+    "Date": "2014-01-05T23:00:00.000Z",
+    "Year": 2014,
+    "IntlGrade": "B",
+    "Grade": 10,
+    "AvgGradeClass": 5.88,
+    "DifAvg": 4.12
   },
   {
-    "id": 30,
-    "course": "Eksternt \u00E5rsregnskab"
+    "ID": 31,
+    "Course": "Erhvervs- og samfundsbeskrivelse",
+    "ECTS": 5,
+    "Term": "2. Term",
+    "Date": "2014-01-04T23:00:00.000Z",
+    "Year": 2014,
+    "IntlGrade": "D",
+    "Grade": 4,
+    "AvgGradeClass": 3.19,
+    "DifAvg": 0.81
   },
   {
-    "id": 31,
-    "course": "Erhvervs- og samfundsbeskrivelse"
+    "ID": 32,
+    "Course": "Makro\u00F8konomi",
+    "ECTS": 5,
+    "Term": "2. Term",
+    "Date": "2014-01-03T23:00:00.000Z",
+    "Year": 2014,
+    "IntlGrade": "D",
+    "Grade": 4,
+    "AvgGradeClass": 3.53,
+    "DifAvg": 0.47
   },
   {
-    "id": 32,
-    "course": "Makro\u00F8konomi"
+    "ID": 33,
+    "Course": "Videnskabsteori og metode 1",
+    "ECTS": 5,
+    "Term": "2. Term",
+    "Date": "2014-01-02T23:00:00.000Z",
+    "Year": 2014,
+    "IntlGrade": "B",
+    "Grade": 10,
+    "AvgGradeClass": 5.72,
+    "DifAvg": 4.28
   },
   {
-    "id": 33,
-    "course": "Videnskabsteori og metode 1"
+    "ID": 34,
+    "Course": "Drift\u00F8konomi i forsyningsk\u00E6der",
+    "ECTS": 5,
+    "Term": "2. Term",
+    "Date": "2014-01-01T23:00:00.000Z",
+    "Year": 2014,
+    "IntlGrade": "C",
+    "Grade": 7,
+    "AvgGradeClass": 3.82,
+    "DifAvg": 3.18
   },
   {
-    "id": 34,
-    "course": "Drift\u00F8konomi i forsyningsk\u00E6der"
+    "ID": 35,
+    "Course": "Statistik 2",
+    "ECTS": 5,
+    "Term": "2. Term",
+    "Date": "2013-12-31T23:00:00.000Z",
+    "Year": 2014,
+    "IntlGrade": "C",
+    "Grade": 7,
+    "AvgGradeClass": 2.53,
+    "DifAvg": 4.47
   },
   {
-    "id": 35,
-    "course": "Statistik 2"
+    "ID": 36,
+    "Course": "Omkostnings- og investeringsteori",
+    "ECTS": 5,
+    "Term": "1. Term",
+    "Date": "2013-07-05T22:00:00.000Z",
+    "Year": 2013,
+    "IntlGrade": "C",
+    "Grade": 7,
+    "AvgGradeClass": 2.49,
+    "DifAvg": 4.51
   },
   {
-    "id": 36,
-    "course": "Omkostnings- og investeringsteori"
+    "ID": 37,
+    "Course": "Regnskabsforst\u00E5else",
+    "ECTS": 5,
+    "Term": "1. Term",
+    "Date": "2013-07-04T22:00:00.000Z",
+    "Year": 2013,
+    "IntlGrade": "C",
+    "Grade": 7,
+    "AvgGradeClass": 4.28,
+    "DifAvg": 2.72
   },
   {
-    "id": 37,
-    "course": "Regnskabsforst\u00E5else"
+    "ID": 38,
+    "Course": "Mikro\u00F8konomi",
+    "ECTS": 5,
+    "Term": "1. Term",
+    "Date": "2013-07-03T22:00:00.000Z",
+    "Year": 2013,
+    "IntlGrade": "C",
+    "Grade": 7,
+    "AvgGradeClass": 4.6,
+    "DifAvg": 2.4
   },
   {
-    "id": 38,
-    "course": "Mikro\u00F8konomi"
+    "ID": 39,
+    "Course": "Statistik 1",
+    "ECTS": 5,
+    "Term": "1. Term",
+    "Date": "2013-07-02T22:00:00.000Z",
+    "Year": 2013,
+    "IntlGrade": "D",
+    "Grade": 4,
+    "AvgGradeClass": 3.33,
+    "DifAvg": 0.67
   },
   {
-    "id": 39,
-    "course": "Statistik 1"
+    "ID": 40,
+    "Course": "Matematik",
+    "ECTS": 5,
+    "Term": "1. Term",
+    "Date": "2013-07-01T22:00:00.000Z",
+    "Year": 2013,
+    "IntlGrade": "D",
+    "Grade": 4,
+    "AvgGradeClass": 4.52,
+    "DifAvg": -0.52
   },
   {
-    "id": 40,
-    "course": "Matematik"
-  },
-  {
-    "id": 41,
-    "course": "Virksomhedens informationssystemer"
+    "ID": 41,
+    "Course": "Virksomhedens informationssystemer",
+    "ECTS": 5,
+    "Term": "1. Term",
+    "Date": "2013-06-30T22:00:00.000Z",
+    "Year": 2013,
+    "IntlGrade": "C",
+    "Grade": 7,
+    "AvgGradeClass": 5.41,
+    "DifAvg": 1.59
   }
 ]

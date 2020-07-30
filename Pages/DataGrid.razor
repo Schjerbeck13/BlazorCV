@@ -1,60 +1,46 @@
 ﻿@page "/DataGrid"
 @inject HttpClient Http
 
-<h1>Data Grid</h1>
-
-<p>This component demonstrates fetching data.</p>
-
-@if (DataSource == null) {
-    <div>Loading...</div>
-} else {
-    <DxDataGrid Data="@DataSource">
-        <DxDataGridDateEditColumn Field=@nameof(WeatherForecast.Date) />
-        <DxDataGridColumn Field=@nameof(WeatherForecast.TemperatureC) Caption="Temp. (C)" />
-        <DxDataGridSpinEditColumn Field=@nameof(WeatherForecast.TemperatureF) Caption="Temp. (F)" />
-    </DxDataGrid>
-}
-
 <h1>Grades</h1>
 
 <p>This component demonstrates my grades</p>
 
-@if (Enrolmentss == null) {
+@if (Enrolments == null) {
     <div>Loading...</div>
-} else {
-    <DxDataGrid Data="@Enrolmentss">
-        <DxDataGridColumn Field=@nameof(Enrolment.course) Caption="Temp. (C)" />
-    </DxDataGrid> 
+} else { 
+    <DxDataGrid Data="@Enrolments" CssClass="mw-1100" PageSize="50">
+        <HeaderTemplate>
+            <DxToolbar>
+                <DxDataGridColumnChooserToolbarItem Alignment="ToolbarItemAlignment.Right" />
+            </DxToolbar>
+        </HeaderTemplate>
+        <Columns>
+            <DxDataGridColumn Field=@nameof(Enrolment.ID) Caption="ID" TextAlignment="@DataGridTextAlign.Center"/>
+            <DxDataGridColumn Field=@nameof(Enrolment.Course) Caption="Course" />
+            <DxDataGridColumn Field=@nameof(Enrolment.Grade) Caption="Grade" />
+            <DxDataGridColumn Field=@nameof(Enrolment.AvgGradeClass) Caption="Avg. Grade Class" />
+            <DxDataGridColumn Field=@nameof(Enrolment.DifAvg) Caption="Difference Avg. Grade Class" />
+        </Columns>
+    </DxDataGrid>
 }
 
 @code {
-    private IEnumerable<WeatherForecast> DataSource;
-    private Enrolment[] Enrolments;
-    private IEnumerable<Enrolment> Enrolmentss;
-
-    public class WeatherForecast {
-        public DateTime Date { get; set; }
-        public int TemperatureC { get; set; }
-        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-    }
+    private IEnumerable<Enrolment> Enrolments;
 
     protected override async Task OnInitializedAsync() {
-        DataSource = await GetForecastAsync();
-        Enrolmentss = await Http.GetFromJsonAsync<IEnumerable<Enrolment>>("sample-data/grades.json");
-        Enrolments = await Http.GetFromJsonAsync<Enrolment[]>("sample-data/Grades.json");
-    }
-
-    public Task<IEnumerable<WeatherForecast>> GetForecastAsync() {
-        var rng = new Random();
-        DateTime startDate = DateTime.Now;
-        return Task.FromResult(Enumerable.Range(1, 15).Select(index => new WeatherForecast {
-            Date = startDate.AddDays(index),
-            TemperatureC = rng.Next(-15, 20),
-        }).AsEnumerable());
+        Enrolments = await Http.GetFromJsonAsync<IEnumerable<Enrolment>>("sample-data/grades.json");
     }
 
     public class Enrolment {
-        public int id { get; set; }
-        public String course { get; set; }
+        public int ID { get; set; }
+        public int ECTS { get; set; }
+        public string Course { get; set; } 
+        public string Term { get; set; }
+        public DateTime Date { get; set; }
+        public int Year { get; set; }
+        public string IntlGrade { get; set; }
+        public int Grade { get; set; }
+        public double AvgGradeClass { get; set; }
+        public double DifAvg { get; set; }
     }
 }
