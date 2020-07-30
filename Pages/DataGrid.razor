@@ -1,6 +1,7 @@
 ﻿@page "/DataGrid"
 @inject HttpClient Http
 
+
 <h1>Grades</h1>
 
 <p>This component demonstrates my grades</p>
@@ -8,7 +9,12 @@
 @if (Enrolments == null) {
     <div>Loading...</div>
 } else { 
-    <DxDataGrid Data="@Enrolments" CssClass="mw-1100" PageSize="50">
+    <div><p>Antal kurser: @Enrolments.Count()</p> </div>
+    <DxDataGrid Data="@Enrolments"
+                VerticalScrollBarMode="@ScrollBarMode.Auto"
+                VerticalScrollableHeight="300"
+                PageSize="@Enrolments.Count()" 
+                CssClass="mw-1100">
         <HeaderTemplate>
             <DxToolbar>
                 <DxDataGridColumnChooserToolbarItem Alignment="ToolbarItemAlignment.Right" />
@@ -22,6 +28,31 @@
             <DxDataGridColumn Field=@nameof(Enrolment.DifAvg) Caption="Difference Avg. Grade Class" />
         </Columns>
     </DxDataGrid>
+
+    <DxChart Data="@Enrolments"
+         LabelOverlap="ChartLabelOverlap.Hide"
+         CssClass="mw-1100">
+        <DxChartTitle Text="Sales amount" />
+
+        <DxChartCommonSeries
+            AggregationMethod="@Enumerable.Sum"
+            NameField="@((Enrolment s) => s.Date.Year)" 
+            ArgumentField="@((Enrolment s) => s.Term)" 
+            ValueField="@((Enrolment s) => s.Grade)">
+
+            <SeriesTemplate Context="settings">
+                @if(settings.GroupKey == 2019) {
+                    <DxChartLineSeries Name="Last year" Settings="@settings">
+                    </DxChartLineSeries>
+                } else {
+                    <DxChartBarSeries Settings="@settings">
+                        <DxChartSeriesLabel Visible="true"></DxChartSeriesLabel>
+                    </DxChartBarSeries>
+                }
+            </SeriesTemplate>
+        </DxChartCommonSeries>
+
+    </DxChart>
 }
 
 @code {
