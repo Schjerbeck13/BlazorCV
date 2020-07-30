@@ -1,0 +1,166 @@
+[
+  {
+    "id": 1,
+    "course": "Lean Enterprise"
+  },
+  {
+    "id": 2,
+    "course": "Project Management: A Practitioners Approach"
+  },
+  {
+    "id": 3,
+    "course": "Data Mining for Business Decisions"
+  },
+  {
+    "id": 4,
+    "course": "Bayesian Networks"
+  },
+  {
+    "id": 5,
+    "course": "Advanced Market Research"
+  },
+  {
+    "id": 6,
+    "course": "IS Development and Implementation in a Business Context"
+  },
+  {
+    "id": 7,
+    "course": "Business Forecasting"
+  },
+  {
+    "id": 8,
+    "course": "Data Warehousing"
+  },
+  {
+    "id": 9,
+    "course": "SAS and SQL for Business Analytics"
+  },
+  {
+    "id": 10,
+    "course": "Bachelorafhandling"
+  },
+  {
+    "id": 11,
+    "course": "Erhvervsret"
+  },
+  {
+    "id": 12,
+    "course": "Business Intelligence"
+  },
+  {
+    "id": 13,
+    "course": "Strategi"
+  },
+  {
+    "id": 14,
+    "course": "Programmering 2"
+  },
+  {
+    "id": 15,
+    "course": "Seminar i Marketing"
+  },
+  {
+    "id": 16,
+    "course": "Introduktion til programmering"
+  },
+  {
+    "id": 17,
+    "course": "Introduktion to web 2.0 Technologies"
+  },
+  {
+    "id": 18,
+    "course": "Videnskabsteori og metode 3 (kvalitativ metode)"
+  },
+  {
+    "id": 19,
+    "course": "IT-Projektstyring"
+  },
+  {
+    "id": 20,
+    "course": "Afs\u00E6tnings\u00F8konomi"
+  },
+  {
+    "id": 21,
+    "course": "Projektorienteret opgave"
+  },
+  {
+    "id": 22,
+    "course": "Adf\u00E6rd i organisationer"
+  },
+  {
+    "id": 23,
+    "course": "Informationssytemer og forretningsprocesser"
+  },
+  {
+    "id": 24,
+    "course": "Drifts\u00F8konomiske planl\u00E6gningsmodeller"
+  },
+  {
+    "id": 25,
+    "course": "\u00D8konomistyring"
+  },
+  {
+    "id": 26,
+    "course": "Videnskabsteori og metode 2 (Kvantitativ metode)"
+  },
+  {
+    "id": 27,
+    "course": "Finansiering I"
+  },
+  {
+    "id": 28,
+    "course": "Brugerrettet IT-innovation"
+  },
+  {
+    "id": 29,
+    "course": "Modellering af informationsystemer"
+  },
+  {
+    "id": 30,
+    "course": "Eksternt \u00E5rsregnskab"
+  },
+  {
+    "id": 31,
+    "course": "Erhvervs- og samfundsbeskrivelse"
+  },
+  {
+    "id": 32,
+    "course": "Makro\u00F8konomi"
+  },
+  {
+    "id": 33,
+    "course": "Videnskabsteori og metode 1"
+  },
+  {
+    "id": 34,
+    "course": "Drift\u00F8konomi i forsyningsk\u00E6der"
+  },
+  {
+    "id": 35,
+    "course": "Statistik 2"
+  },
+  {
+    "id": 36,
+    "course": "Omkostnings- og investeringsteori"
+  },
+  {
+    "id": 37,
+    "course": "Regnskabsforst\u00E5else"
+  },
+  {
+    "id": 38,
+    "course": "Mikro\u00F8konomi"
+  },
+  {
+    "id": 39,
+    "course": "Statistik 1"
+  },
+  {
+    "id": 40,
+    "course": "Matematik"
+  },
+  {
+    "id": 41,
+    "course": "Virksomhedens informationssystemer"
+  }
+]

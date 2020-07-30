@@ -1,4 +1,9 @@
 ﻿@page "/DataGrid"
+@inject HttpClient Http
+
+<h1>Data Grid</h1>
+
+<p>This component demonstrates fetching data.</p>
 
 @if (DataSource == null) {
     <div>Loading...</div>
@@ -8,15 +13,24 @@
         <DxDataGridColumn Field=@nameof(WeatherForecast.TemperatureC) Caption="Temp. (C)" />
         <DxDataGridSpinEditColumn Field=@nameof(WeatherForecast.TemperatureF) Caption="Temp. (F)" />
     </DxDataGrid>
+}
 
-    <DxDataGrid Data="@Enrolments">
-        <DxDataGridColumn Field=@nameof(Enrolment.Name) Caption="Temp. (C)" />
-    </DxDataGrid>
+<h1>Grades</h1>
+
+<p>This component demonstrates my grades</p>
+
+@if (Enrolmentss == null) {
+    <div>Loading...</div>
+} else {
+    <DxDataGrid Data="@Enrolmentss">
+        <DxDataGridColumn Field=@nameof(Enrolment.course) Caption="Temp. (C)" />
+    </DxDataGrid> 
 }
 
 @code {
-    IEnumerable<WeatherForecast> DataSource;
-    IEnumerable<Enrolment> Enrolments;
+    private IEnumerable<WeatherForecast> DataSource;
+    private Enrolment[] Enrolments;
+    private IEnumerable<Enrolment> Enrolmentss;
 
     public class WeatherForecast {
         public DateTime Date { get; set; }
@@ -26,7 +40,8 @@
 
     protected override async Task OnInitializedAsync() {
         DataSource = await GetForecastAsync();
-        Enrolments = await GetEnrolmentsAsync();
+        Enrolmentss = await Http.GetFromJsonAsync<IEnumerable<Enrolment>>("sample-data/grades.json");
+        Enrolments = await Http.GetFromJsonAsync<Enrolment[]>("sample-data/Grades.json");
     }
 
     public Task<IEnumerable<WeatherForecast>> GetForecastAsync() {
@@ -39,19 +54,7 @@
     }
 
     public class Enrolment {
-        public String Name { get; set; }
-        public int ECTS { get; set; }
-        public String Term { get; set; }
-        public DateTime Date { get; set; }
-        public int Grade { get; set; }
-    }
-
-    public Task<IEnumerable<Enrolment>> GetEnrolmentsAsync() {
-        var rng = new Random();
-
-        return Task.FromResult(Enumerable.Range(1, 2).Select(index => new Enrolment {
-            Name = "Nyt",
-            ECTS = 10
-        }).AsEnumerable());
+        public int id { get; set; }
+        public String course { get; set; }
     }
 }

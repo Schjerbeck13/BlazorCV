@@ -1,26 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bruger\\OneDrive\\Skrivebord\\BlazorCV\\BlazorCV.csproj": {}
+    "C:\\Users\\rn.EFD\\Desktop\\Projekter\\BlazorCV\\BlazorCV.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bruger\\OneDrive\\Skrivebord\\BlazorCV\\BlazorCV.csproj": {
+    "C:\\Users\\rn.EFD\\Desktop\\Projekter\\BlazorCV\\BlazorCV.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruger\\OneDrive\\Skrivebord\\BlazorCV\\BlazorCV.csproj",
+        "projectUniqueName": "C:\\Users\\rn.EFD\\Desktop\\Projekter\\BlazorCV\\BlazorCV.csproj",
         "projectName": "BlazorCV",
-        "projectPath": "C:\\Users\\Bruger\\OneDrive\\Skrivebord\\BlazorCV\\BlazorCV.csproj",
-        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruger\\OneDrive\\Skrivebord\\BlazorCV\\obj\\",
+        "projectPath": "C:\\Users\\rn.EFD\\Desktop\\Projekter\\BlazorCV\\BlazorCV.csproj",
+        "packagesPath": "C:\\Users\\rn.EFD\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rn.EFD\\Desktop\\Projekter\\BlazorCV\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Bruger\\OneDrive\\Skrivebord\\BlazorCV\\NuGet.Config",
-          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\rn.EFD\\Desktop\\Projekter\\BlazorCV\\NuGet.Config",
+          "C:\\Users\\rn.EFD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://nuget.devexpress.com/44Hrcpm4DHtpgVLjaBYkuoCzGPux3GKlaSUFc2Obxq5lPBm6bo/api": {}
         },

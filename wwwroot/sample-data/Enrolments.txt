@@ -1,0 +1,18 @@
+Enrolments = await Http.GetFromJsonAsync<Enrolment[]>("sample-data/Grades.json").AsEnumerable();
+
+        <DxDataGrid Data="@Enrolments">
+        <DxDataGridColumn Field=@nameof(Enrolment.Course) Caption="Temp. (C)" />
+    </DxDataGrid>
+
+
+        public class Enrolment {
+        private int ID { get; }
+        public String Course { get; set; }
+        public int ECTS { get; set; }
+        public String Term { get; set; }
+        public DateTime Date { get; set; }
+        public String IntlGrade { get; set; }
+        public int Grade { get; set; }
+        public int AvgGradeClass { get; set; }
+        public int DifAvg { get; set; }
+    }
