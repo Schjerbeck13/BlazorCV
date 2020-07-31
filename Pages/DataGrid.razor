@@ -50,8 +50,16 @@
                 }
             </SeriesTemplate>
         </DxChartCommonSeries>
-
     </DxChart>
+
+    <DxPivotGrid Data="@Enrolments">
+        <DxPivotGridField Field="@nameof(Enrolment.Term)" SortOrder="@PivotGridSortOrder.Ascending" Area="@PivotGridFieldArea.Row"></DxPivotGridField>
+        <DxPivotGridField Field="@nameof(Enrolment.Course)" Area="@PivotGridFieldArea.Row"></DxPivotGridField>
+
+        <DxPivotGridField Field="@nameof(Enrolment.Grade)" Area="@PivotGridFieldArea.Data" SummaryType="@PivotGridSummaryType.Avg"></DxPivotGridField>
+        <DxPivotGridField Field="@nameof(Enrolment.ECTS)" Area="@PivotGridFieldArea.Data" SummaryType="@PivotGridSummaryType.Sum"></DxPivotGridField>
+    </DxPivotGrid>
+
 }
 
 @code {
