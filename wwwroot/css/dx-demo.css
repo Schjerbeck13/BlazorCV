@@ -6,6 +6,9 @@
 body {
     margin: 0;
     overscroll-behavior: none;
+    max-width: 992px;
+    margin-right: auto;
+    margin-left: auto;
 }
 app,
 app > div,
