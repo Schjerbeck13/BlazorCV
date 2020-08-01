@@ -744,9 +744,6 @@ C:\Users\Bruger\OneDrive\Skrivebord\BlazorCV\obj\Debug\netstandard2.1\compressed
 C:\Users\Bruger\OneDrive\Skrivebord\BlazorCV\obj\Debug\netstandard2.1\compressed\_framework\_bin\Newtonsoft.Json.dll.br
 C:\Users\Bruger\OneDrive\Skrivebord\BlazorCV\obj\Debug\netstandard2.1\RazorDeclaration\Pages\DataGrid.razor.g.cs
 C:\Users\Bruger\OneDrive\Skrivebord\BlazorCV\obj\Debug\netstandard2.1\Razor\Pages\DataGrid.razor.g.cs
-C:\Users\Bruger\OneDrive\Skrivebord\BlazorCV\obj\Debug\netstandard2.1\integrity\MC4_fNyfXulGis_rpvFhgq1ODe-jVDkp3QuTeEneTI4=.hash
-C:\Users\Bruger\OneDrive\Skrivebord\BlazorCV\obj\Debug\netstandard2.1\integrity\TidR5rqGlTkOZeAV3nHQGataYntC2CLHsymXDD5OCbc=.hash
-C:\Users\Bruger\OneDrive\Skrivebord\BlazorCV\obj\Debug\netstandard2.1\integrity\eabwbhLdoXL4q-7r5Am2Ca0xZGrEY1Aqs5ZrDTN1VGk=.hash
 C:\Users\rn.EFD\Desktop\Projekter\BlazorCV\bin\Debug\netstandard2.1\Properties\launchSettings.json
 C:\Users\rn.EFD\Desktop\Projekter\BlazorCV\bin\Debug\netstandard2.1\nuget.config
 C:\Users\rn.EFD\Desktop\Projekter\BlazorCV\bin\Debug\netstandard2.1\BlazorCV.StaticWebAssets.xml
@@ -1135,3 +1132,8 @@ C:\Users\rn.EFD\Desktop\Projekter\BlazorCV\obj\Debug\netstandard2.1\BlazorCV.pdb
 C:\Users\rn.EFD\Desktop\Projekter\BlazorCV\obj\Debug\netstandard2.1\integrity\V4ah0iLMeAJVRVgK7FjucGH1PHCEcWgywP-rSLIZqWA=.hash
 C:\Users\rn.EFD\Desktop\Projekter\BlazorCV\obj\Debug\netstandard2.1\integrity\5q29XGyrl8a5hopjc10mJS3IWks-jPPEK3oognMSUEo=.hash
 C:\Users\rn.EFD\Desktop\Projekter\BlazorCV\obj\Debug\netstandard2.1\integrity\V4Ol4z4p_Zwn-giZMHLdGtXYbXo4x6qUO8-74y6wDas=.hash
+C:\Users\Bruger\OneDrive\Skrivebord\BlazorCV\obj\Debug\netstandard2.1\RazorDeclaration\Shared\NavMenu1.Razor.g.cs
+C:\Users\Bruger\OneDrive\Skrivebord\BlazorCV\obj\Debug\netstandard2.1\Razor\Shared\NavMenu1.Razor.g.cs
+C:\Users\Bruger\OneDrive\Skrivebord\BlazorCV\obj\Debug\netstandard2.1\integrity\2mkUjTOQKW3ym1ReQ0jQMVFP1-dXTSgL2dhKgvHMuII=.hash
+C:\Users\Bruger\OneDrive\Skrivebord\BlazorCV\obj\Debug\netstandard2.1\integrity\7iYPrargyJdfARYIwoeR8w68C0yZeske_-MH2BgEmdU=.hash
+C:\Users\Bruger\OneDrive\Skrivebord\BlazorCV\obj\Debug\netstandard2.1\integrity\usCGxxX6C6GbkAXJANDsgpsTGWsIqDeP_e5CurYHl-I=.hash
