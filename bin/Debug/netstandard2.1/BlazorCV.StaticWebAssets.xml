@@ -1,4 +1,4 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="C:\Users\Bruger\OneDrive\Skrivebord\BlazorCV\bin\Debug\netstandard2.1\wwwroot\" />
-  <ContentRoot BasePath="_content/DevExpress.Blazor" Path="C:\Users\Bruger\.nuget\packages\devexpress.blazor\20.1.5\build\..\staticwebassets\" />
+  <ContentRoot BasePath="/" Path="C:\Users\rn.EFD\Desktop\BlazorCV\bin\Debug\netstandard2.1\wwwroot\" />
+  <ContentRoot BasePath="_content/DevExpress.Blazor" Path="C:\Users\rn.EFD\.nuget\packages\devexpress.blazor\20.1.5\build\..\staticwebassets\" />
 </StaticWebAssets>

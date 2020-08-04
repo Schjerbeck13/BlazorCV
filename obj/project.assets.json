@@ -1723,7 +1723,7 @@
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
-      "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "sha512": "nATsBTD2CKr4AYN6eRszhX4sptImWmBJwB/U6XKCWWfnCcrTBw8XSCm3QA9gjppkHTr8OkXUY21MR91D3QZXsw==",
       "type": "package",
       "path": "system.numerics.vectors/4.5.0",
       "files": [
@@ -1893,25 +1893,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Bruger\\.nuget\\packages\\": {}
+    "C:\\Users\\rn.EFD\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bruger\\OneDrive\\Skrivebord\\BlazorCV\\BlazorCV.csproj",
+      "projectUniqueName": "C:\\Users\\rn.EFD\\Desktop\\BlazorCV\\BlazorCV.csproj",
       "projectName": "BlazorCV",
-      "projectPath": "C:\\Users\\Bruger\\OneDrive\\Skrivebord\\BlazorCV\\BlazorCV.csproj",
-      "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bruger\\OneDrive\\Skrivebord\\BlazorCV\\obj\\",
+      "projectPath": "C:\\Users\\rn.EFD\\Desktop\\BlazorCV\\BlazorCV.csproj",
+      "packagesPath": "C:\\Users\\rn.EFD\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rn.EFD\\Desktop\\BlazorCV\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Bruger\\OneDrive\\Skrivebord\\BlazorCV\\NuGet.Config",
-        "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\rn.EFD\\Desktop\\BlazorCV\\NuGet.Config",
+        "C:\\Users\\rn.EFD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://nuget.devexpress.com/44Hrcpm4DHtpgVLjaBYkuoCzGPux3GKlaSUFc2Obxq5lPBm6bo/api": {}
       },
